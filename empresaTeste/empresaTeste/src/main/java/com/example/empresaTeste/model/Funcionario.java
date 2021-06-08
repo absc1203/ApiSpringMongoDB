@@ -3,23 +3,23 @@ package com.example.empresaTeste.model;
 import java.math.BigDecimal;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
 public class Funcionario {
-	
+
 	@Id
 	private String id;
-	
+
 	private String nome;
-	
+
 	private Integer idade;
-	
+
 	private BigDecimal salario;
-	
+
+	@DBRef
 	private Funcionario chefe;
-	
-	
 
 	public String getId() {
 		return id;
@@ -60,7 +60,5 @@ public class Funcionario {
 	public void setChefe(Funcionario chefe) {
 		this.chefe = chefe;
 	}
-	
-	
 
 }
