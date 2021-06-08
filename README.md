@@ -29,7 +29,7 @@ Foi utilizado o padrão MVC do Spring, cada camada com sua devida responsabilida
 ## Diferença de uma model de banco relacional e não relacional
 Para o modelo relacional normalmente no Spring utilizamos o ``@Entity``, porém no NoSQL estamos falando de um banco orientado a documento, por isso para dizermos que nossa model é um documento utilizamos a notação ``@Document``.
 
-![detalhe](https://user-images.githubusercontent.com/43246064/121199070-ff381c80-c848-11eb-9bde-69daafff4293.png)
+![imgAndré](https://user-images.githubusercontent.com/43246064/121225887-5a293e00-c860-11eb-9263-97099daecfd8.png)
 
 # Testando os Endpoints
 
