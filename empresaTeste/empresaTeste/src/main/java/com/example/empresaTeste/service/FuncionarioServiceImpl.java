@@ -38,7 +38,6 @@ public class FuncionarioServiceImpl implements FuncionarioService {
 
 	@Override
 	public List<Funcionario> getAllByName(String nome) {
-	
 		return this.funcionarioRepository.findByNome(nome);
 	}
 
