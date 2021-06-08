@@ -65,4 +65,6 @@ Teste no Postman
 ![busca nome postman](https://user-images.githubusercontent.com/43246064/121213032-44ae1700-c854-11eb-93f6-931aac42acfc.png)
 
 
+## Uma amostra de como ficam armazenados os dados no Robo 3T
+![3t](https://user-images.githubusercontent.com/43246064/121213586-c140f580-c854-11eb-91ce-45dc98256a0d.png)
 
