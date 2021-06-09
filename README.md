@@ -52,19 +52,24 @@ Esse método não tem muito detalhe, é um simples ``findAll`` para trazer todos
 Esses métodos são um pouco mais complexos já que exigem dados de entrada (parametros) para funcionar. Veja que duas maneiras de conseguir esses dados.
 
 Uma delas é usando o ``@PathVariable`` para buscar na URL estática do domínio.
+
 ![busca id](https://user-images.githubusercontent.com/43246064/121211866-390e2080-c853-11eb-956b-ab9fc021cbe2.png)
 
 Teste no Postman
+
 ![busca id postman](https://user-images.githubusercontent.com/43246064/121212809-103a5b00-c854-11eb-8d21-071a5834ade1.png)
 
 
 Já na busca pelo nome o ``@RequestParam`` foi utilizado para pegar os dados da URL e fazer o método funcionar
+
 ![busca nome](https://user-images.githubusercontent.com/43246064/121212996-3cee7280-c854-11eb-9522-ffe5f9ad8a69.png)
 
 Teste no Postman
+
 ![busca nome postman](https://user-images.githubusercontent.com/43246064/121213032-44ae1700-c854-11eb-93f6-931aac42acfc.png)
 
 
 ## Uma amostra de como ficam armazenados os dados no Robo 3T
+
 ![3t](https://user-images.githubusercontent.com/43246064/121213586-c140f580-c854-11eb-91ce-45dc98256a0d.png)
 
